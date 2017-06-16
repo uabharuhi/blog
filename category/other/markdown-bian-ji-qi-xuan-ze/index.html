@@ -116,28 +116,76 @@
     <article class="uk-article">
 
         <h1 class="uk-article-title">
-           <a href="https://uabharuhi.github.io/blog/category/python/test/" rel="bookmark"> page1 </a>
+           <a href="https://uabharuhi.github.io/blog/category/other/markdown-bian-ji-qi-xuan-ze/" rel="bookmark"> markdown 編輯器選擇 </a>
         </h1>
 
             <div class="tags">
                 <i class="uk-icon-tags"></i>
                     <div class="uk-badge uk-badge-notification">
-                        <a href="https://uabharuhi.github.io/blog/tag/python.html">python</a>
-                    </div>
-                    <div class="uk-badge uk-badge-notification">
-                        <a href="https://uabharuhi.github.io/blog/tag/pelican.html">pelican</a>
+                        <a href="https://uabharuhi.github.io/blog/tag/other.html">other</a>
                     </div>
             </div>
 
         <!-- meta -->
         <p class="uk-article-meta">
-            週日 05 二月 2017
+            週五 16 六月 2017
         </p>
 
         <hr class="uk-article-divider">
 
-        <p>第二次世界大戰（又常被簡稱為二次大戰、二戰等，亦可稱為世界反法西斯戰爭或WWII；英語：World War II；法語：Seconde Guerre mondiale；德語：Zweiter Weltkrieg；俄語：Вторая мировая война；日語：第二次世界大戦）是一次自1939年至1945年所爆發的全球性軍事衝突，整場戰爭涉及到全球絕大多數的國家，包括所有的大國，並最終分成了兩個彼此對立的軍事同盟─同盟國和軸心國。這次戰爭是歷史上最大規模的戰爭，有1億多名軍事人員被動員並參與這次軍事衝突。主要的參戰國紛紛宣布進入總體戰狀態，幾乎將自身國家的經濟、工業和科學技術應用於戰爭之上，同時也將民用與軍用的資源合併以方便統籌規劃。包括有南京大屠殺、猶太人大屠殺、戰爭中日軍對中國軍民進行細菌戰、以及最終美國對日本首次使用原子彈等事件，使得第二次世界大戰也是自有紀錄以來涉及最多大規模民眾死亡案例的軍事衝突，全部總計便將近有5,000萬至7,000萬人因而死亡，這也讓第二次世界大戰成了人類歷史上死亡人數最多的戰爭[2]。</p>
-<p>儘管早在1931年9月，日本便侵佔中國東北，至1937年7月蘆溝橋事變後中日更爆發了全面戰爭[3]，而在1936年義大利亦入侵埃賽俄比亞。不過大多數人仍多把第二次世界大戰的爆發定為1939年9月1日德國入侵波蘭開始，這次入侵行動隨即導致英國與法國向德國宣戰。然而德國在入侵波蘭後開始著手嘗試在歐洲建立一個大帝國，自1939年末期到1941年初期為止，發動一連串戰爭並藉由條約的簽署使得德國幾乎佔領了歐洲絕大部分的地區，而名義上保持</p>
+        <h1>markdown 編輯器選擇</h1>
+<ul>
+<li>harapod</li>
+<li>sublime Text 3 + 有的沒的插件</li>
+</ul>
+<p>因為要架設static blog使用markdown寫文章,
+不太想用web online的editor(個人偏好),
+所以想說找幾款可以在windows上面使用的markdown editor,
+因為需要記錄一些讀書的心得會使用到mathjax之類的東西,最好也要能快速的preview,界面也不要太醜比較好。找來找去比較喜歡的只有haropad。</p>
+<h2>haropad</h2>
+<p>界面很漂亮,還可以選擇各式各樣的Theme,又可以用mathjax,但是在我的電腦上(win7 desktop)上用起來莫名的卡...... 而且第一次用的時候調完設定之後mathjax inline mode還是有問題,結果重新打開haropad之後又正常了,但是速度的問題一直很漫,最後放棄治療...到底是為什麼阿會那麼卡</p>
+<p>因為真的太卡,想說找一個輕量的editor,但是可以裝plugin滿足各式各樣的需求,網路上的人各種推sublime,我之前已經聽過好幾遍了,想說就用用看好了。</p>
+<p>去官網下載安裝完之後sublime,開始裝plugin,達到我的需求需要裝以下幾個plugins
+在那之前還要先裝 Package Control</p>
+<ol>
+<li><a href="https://packagecontrol.io/installation">Package Control</a></li>
+<li><a href="https://github.com/SublimeText-Markdown/MarkdownEditing">Markdownediting </a></li>
+<li><a href="https://github.com/revolunet/sublimetext-markdown-preview">Markdown-preview </a></li>
+<li><a href="https://github.com/alepez/LiveReload-sublimetext3">LiveReload-sublimetext3</a></li>
+</ol>
+<h2>Package Control</h2>
+<p>安裝非常簡單,把官網上一段程式碼貼到sublime console(ctrl+` )然後按下enter就弄好了</p>
+<h2>Markdownediting</h2>
+<p>這個插件是讓markdown的寫作更方便,例如會新增好用的hotkey,字動補全等等</p>
+<p>利用package control的install package參照github上面的要求簡單搞定,真的有夠方便</p>
+<h2>Markdown-preview</h2>
+<p>裝完Markdownediting後,接下來要裝這個,是為了方便即時顯示寫出來的markdwon,我自己的期望是能夠在editor內部就能夠顯示...問題是好像找不到,用瀏覽器也沒多差拉算了(搞不好因為這樣所以才不會卡)</p>
+<p>安裝方式也是按照github上面隨便弄一弄就裝起來了,有夠爽
+為了方便顯示的操作,設定hotkey,github上面也有寫</p>
+<blockquote>
+<p>or bind some key in your user key binding, using a line like this one: { 
+ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": 
+ "browser", "parser":"markdown"} }, for a specific parser and target or { 
+ "keys": ["alt+m"], "command": "markdown_preview_select", "args": {"target":
+  "browser"} }, to bring up the quick panel to select enabled parsers for a 
+  given target.</p>
+</blockquote>
+<p>這樣就能夠按下ctrl+M開啟一個網頁顯示markdown的結果,不用搞那些有的沒的...</p>
+<p>另外,還要啟用mathjax之類的功能,要去Preferences-&gt;pakage setting-&gt;markdwon preview調設定檔,再user setting加入</p>
+<div class="highlight"><pre><span></span>{
+&quot;enable_mathjax&quot;: true,
+&quot;enable_highlight&quot;: true,
+&quot;enable_autoreload&quot;: true
+}
+</pre></div>
+
+
+<p>這樣應該就沒問題了</p>
+<h2>LiveReload</h2>
+<p>沒有安裝這個的話,每一次markdown改完之後就要用F5或是重開一個刷新頁面,很煩....
+裝下去之後,儲存的同時會自動刷新頁面,要用這個功能chorme也要裝一個autoreload的插件,裝下去之後就爽爽用了</p>
+<p>因為安裝的時候弄得有點複雜,不知道先裝什麼後裝什麼,其實只要按照這個安裝plugins的順序,就很簡單了,可能有什麼遺漏的地方就要發揮靈性了....
+應該有把該紀錄的重點都記錄起來了</p>
     </article>
 
     <!--disqus-->
