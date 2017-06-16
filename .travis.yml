@@ -1,13 +1,15 @@
-language: python  
+anguage: python  
 python:  
-- '2.7' 
+- '2.7'  # Pelican 已支援 Python 3，只是我用到一些 Plugins 仍然只能用 Python 2  
 
 branches:  
   only:  
-  - master  
-	
+  - master  # 我是把 Pelican 的原始文字檔放在 source 這個 branch  
+            # 如果是一般的 project 應該就是用 master branch  
 install:  
-- pip install -r requirements.txt  
-
+- pip install -r requirements.txt  # 這邊其實可以直接寫死 pip install ${package}  
+                                   # 使用 requirements.txt 純粹是我個人喜好  
 script:  
-- make travis
+- make travis  # 需要在 Makefile 新增 travis 的 label  
+
+
